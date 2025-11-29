@@ -11,13 +11,13 @@ body:
     options:
     - label: "我已添加 [CLN Blog](https://blog.adclosenn.top) 的友情链接"
       required: true
-    - label: "[CLN Blog](https://blog.adclosenn.top) 不添加 **采集站**、**纯搬运站点**、**论坛类站点** 等非 **个人博客** 类型的站点"
+    - label: "我理解 [CLN Blog](https://blog.adclosenn.top) `小伙伴们` 板块不添加 **采集站**、**纯搬运站点**、**论坛类站点** 等非 **个人博客** 类型的站点"
       required: true
-    - label: "站点目前可以在 **中国大陆区域** 正常访问"
+    - label: "我确认申请的站点目前可以在 **中国大陆区域** 正常访问"
       required: true
-    - label: "申请的友链是独立域名，非 `github.io`、`vercel.app` 等第三方域名"
+    - label: "我确认申请的友链是独立域名，非 `github.io`、`vercel.app` 等第三方域名"
       required: true
-    - label: "若申请时或日后有违反上述规定，CLN Blog 有权**自行删除且不进行通知**"
+    - label: "我同意若申请时或日后有违反上述规定，CLN Blog 有权**自行删除友链，并在源 Issue 通知 Author**"
       required: true
        
 - type: input
@@ -45,7 +45,7 @@ body:
   id: "yml-5"
   attributes:
     label: "站点图片"
-    description: "填写你的网站的 `favicon.ico` 或者你认为合适的、鲜明的、有辨识性的图片。请勿提供 NSFW 图片，否则将直接拒绝申请"
+    description: "填写你的网站的 `favicon.ico` 或者你认为合适的、鲜明的、有辨识性的图片的**URL**。请勿提供 NSFW 图片，否则将直接拒绝申请"
   validations:
     required: true
 - type: textarea
