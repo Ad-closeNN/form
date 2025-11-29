@@ -2,6 +2,7 @@ name: "友链申请"
 title: "feat(friends): 加入"
 description: "为 CLN Blog 申请友链"
 labels: "新友链,等待处理"
+assignees: Ad-closeNN
 body:
 - type: checkboxes
   id: "yml-1"
