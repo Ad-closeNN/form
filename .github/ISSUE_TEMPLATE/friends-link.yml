@@ -45,7 +45,7 @@ body:
   id: "yml-5"
   attributes:
     label: "站点图片"
-    description: "填写你的网站的 `favicon.ico` 或者你认为合适的、鲜明的、有辨识性的图片的**URL**。请勿提供 NSFW 图片，否则将直接拒绝申请"
+    description: "填写你的网站的 `favicon.ico` 或者你认为合适的、鲜明的、有辨识性的图片的URL。**请勿提供 NSFW 图片，否则将直接拒绝申请！**"
   validations:
     required: true
 - type: textarea
