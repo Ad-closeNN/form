@@ -8,11 +8,11 @@ body:
   id: "yml-1"
   attributes:
     label: "检查项"
-    description: "请逐个检查下列项目，并勾选确认。"
+    description: "请逐个检查下列项目，并勾选确认"
     options:
     - label: "我已添加 [CLN Blog](https://blog.adclosenn.top) 的友情链接"
       required: true
-    - label: "我理解 [CLN Blog](https://blog.adclosenn.top) `小伙伴们` 板块不添加 **采集站**、**纯搬运站点**、**论坛类站点** 等非 **个人博客** 类型的站点"
+    - label: "我理解 [CLN Blog](https://blog.adclosenn.top) 的友情链接中 `小伙伴们` 板块不添加 **采集站**、**纯搬运站点**、**论坛类站点** 等非 **个人博客** 类型的站点"
       required: true
     - label: "我确认申请的站点目前可以在 **中国大陆区域** 正常访问"
       required: true
@@ -20,6 +20,17 @@ body:
       required: true
     - label: "我同意若申请时或日后有违反上述规定，CLN Blog 有权**自行删除友链，并在源 Issue 通知 Author**"
       required: true
+
+- type: dropdown
+  id: "yml-choose"
+  attributes:
+    label: 添加的板块
+    description: "个人博客等站点无法被添加至 `资源提供商` 板块"
+    options:
+      - 小伙伴们
+      - 资源提供商
+  validations:
+    required: true
        
 - type: input
   id: "yml-2"
