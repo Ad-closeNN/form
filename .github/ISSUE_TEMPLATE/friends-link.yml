@@ -14,7 +14,7 @@ body:
       required: true
     - label: "我确认我的网站非 **采集站**、**论坛类站点** 等非 **个人博客** 类型的站点。"
       required: true
-    - label: "我确认申请的站点目前可以在 **中国大陆境内使用中国电信、中国移动、中国联通、中国广电网络** 正常访问。"
+    - label: "我确认申请的站点目前可以 **在中国大陆境内使用中国电信、中国移动、中国联通** 网络大面积正常访问（95%以上，不推荐使用劣质 CDN😡）。可以使用 [itdog.cn](https://www.itdog.cn/http/) 进行 HTTP 访问测试。"
       required: true
     - label: "我确认申请的友链是独立域名，可以使用如 `*.dpdns.org` 类域名，但请不要使用 `github.io`、`vercel.app` 类第三方 SaaS 自带的域名。"
       required: true
