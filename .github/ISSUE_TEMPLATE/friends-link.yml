@@ -1,6 +1,6 @@
 name: "友链申请"
 title: "feat(friends): 加入"
-description: "为 Ad_closeNN 的 Blog 申请友链"
+description: "为“Ad_closeNN 的小站”申请友链"
 labels: "新友链,等待处理"
 assignees: Ad-closeNN
 body:
@@ -10,17 +10,17 @@ body:
     label: "检查项"
     description: "请逐个检查下列项目，并勾选确认"
     options:
-    - label: "我已添加 [Ad_closeNN 的 Blog](https://blog.adclosenn.top) 的友链。"
+    - label: "我已添加 [Ad_closeNN 的小站](https://blog.adclosenn.top) 的友链。"
       required: true
     - label: "我确认我的网站非 **采集站**、**论坛类站点** 等非 **个人博客** 类型的站点。"
       required: true
-    - label: "我确认申请的站点目前可以 **在中国大陆境内使用中国电信、中国移动、中国联通** 网络大面积正常访问（95%以上，不推荐使用劣质 CDN😡）。可以使用 [itdog.cn](https://www.itdog.cn/http/) 进行 HTTP 访问测试。"
+    - label: "我确认申请的站点**目前可以在中国大陆境内使用中国电信、中国移动、中国联通等普通网民的网络环境下大面积正常访问**（95%以上，不推荐使用劣质 CDN😡）。可以使用 [itdog.cn](https://www.itdog.cn/http/) 进行 HTTP 访问测试。"
       required: true
-    - label: "我确认申请的友链是独立域名，可以使用如 `*.dpdns.org` 类域名，但请不要使用 `github.io`、`vercel.app` 类第三方 SaaS 自带的域名。"
+    - label: "我确认申请的友链是独立域名，可以使用如 `*.dpdns.org` `*.eu.org` 类域名，但请不要使用 `github.io`、`vercel.app` 类第三方 SaaS 自带的域名。"
       required: true
-    - label: "我同意友链按钮按照友链申请时间进行排序，而**非**按A-Z排序。"
+    - label: "我同意**个人**友链按钮按照友链申请时间进行排序，而**非**按A-Z排序。"
       required: true
-    - label: "我同意若申请时或日后有违反上述规定，[Ad_closeNN 的 Blog](https://blog.adclosenn.top) 有权**自行删除友链，并在源 Issue 通知 Author。**"
+    - label: "我同意若申请时或日后有违反上述规定，[Ad_closeNN 的小站](https://blog.adclosenn.top) 有权**自行删除友链，并在源 Issue 通知 Author。**"
       required: true
   
 - type: input
